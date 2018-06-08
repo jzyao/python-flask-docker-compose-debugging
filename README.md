@@ -41,5 +41,5 @@ $ curl -X POST localhost:8000/message/<message_to_add>
 ### Get message from application (stored in Redis)
 
 ```
-$ curl -X POST localhost:8000/message
+$ curl localhost:8000/message
 ```
